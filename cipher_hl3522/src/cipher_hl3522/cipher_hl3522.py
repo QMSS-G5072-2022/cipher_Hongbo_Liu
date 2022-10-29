@@ -10,6 +10,11 @@ def cipher(text, shift, encrypt=True):
     ---------
     Output: 
     New text after the cipher function
+    ---------
+    Example:
+    Input="test"
+    cipher(text = Input, shift = 1, encrypt=True)
+    "uftu"
     '''
     alphabet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
     new_text = ''
