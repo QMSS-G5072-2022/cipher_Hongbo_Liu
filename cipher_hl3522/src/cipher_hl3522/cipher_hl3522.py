@@ -4,7 +4,7 @@ def cipher(text, shift, encrypt=True):
     ---------
     Input:
     text: string letter text
-    shift: The number of position each letter shift down the alphabet
+    shift: The number of position each letter shift up or down the alphabet
     encrypt: True; The cipher function shift the letters down the alphabet
           False; The cipher function shift the letters up the alphabet
     ---------
